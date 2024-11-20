@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button";
-import FlickeringGrid from "@/components/ui/flickering-grid";
+import Particles from "@/components/ui/particles";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
-      <FlickeringGrid height={1000} width={1000} color={"#ff0000"} />
+    <div className="bg-black w-full h-screen">
+      <Particles color="#ff1bfv" />
     </div>
   );
 }
